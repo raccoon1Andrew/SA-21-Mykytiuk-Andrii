@@ -1,0 +1,73 @@
+body{
+  background-image: url("1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  text-shadow: 5px 2px 4px grey;
+  animation-name: imgchange;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+
+
+
+@keyframes imgchange{
+  0% {background-image: url(1.jpg);}
+  25% {background-image: url(8.jpg);}
+  50% {background-image: url(9.jpg);}
+  75% {background-image: url(10.jpg);}
+  100% {background-image: url(11.jpg);}
+}
+
+ h1{
+  background-color: #30A8E6;
+  color: lighten(#FF512F, 10%);
+  padding: 40px;
+  margin: 0 0 50px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+}
+
+
+input {
+  height: 50px;
+  width: 300px;
+}
+
+textarea {
+font-size : 20px;
+}
+.input-block {
+margin-top: 30px;  
+}
+.contact-wrap {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 50px;
+}
+.square-button {
+  background-color: rgba(white, .8);
+        color: darken(#FF512F, 10%);
+        font-size: 26px;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-align: center;
+        padding: 0 60px;
+        height: 60px;
+        border: none;
+        width: 100%;
+}
+
+
+.contact-form .square-button:hover,
+.contact-form .square-button:focus {
+            background-color:white;
+}
+
